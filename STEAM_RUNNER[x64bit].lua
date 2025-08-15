@@ -1,67 +1,3 @@
-if gg.isPackageInstalled("sstool.only.com.sstool") then
-    i = 1
-    gg.alert("😡😡WARNING😡😡\n\n APPLICATIONS THAT HARMFUL SCRIPTS ARE DETECTED\n\n FOR SECURITY THE SCRIPT WAS AUTOMATICALLY DELETED")
-   trash = gg.getFile():match('[^/]+$')
-os.remove(trash)
-    gg.setVisible(false)
-    while true do
-      gg.setVisible(false)      
-      gg.setVisible(true)
-    end
-    return
-  end
-  
-  if gg.isPackageInstalled("com.guoshi.httpcanary") then
-    i = 1
-    gg.alert("😡😡WARNING😡😡\n\n APPLICATIONS THAT HARMFUL SCRIPTS ARE DETECTED\n\n FOR SECURITY THE SCRIPT WAS AUTOMATICALLY DELETED")
-   trash = gg.getFile():match('[^/]+$')
-os.remove(trash)
-    gg.setVisible(false)
-    while true do
-      gg.setVisible(false)      
-      gg.setVisible(true)
-    end
-    return
-  end
-
-if gg.isPackageInstalled("com.fnmods.sstool") then
-    i = 1
-    gg.alert("😡😡WARNING😡😡\n\n APPLICATIONS THAT HARMFUL SCRIPTS ARE DETECTED\n\n FOR SECURITY THE SCRIPT WAS AUTOMATICALLY DELETED")
-   trash = gg.getFile():match('[^/]+$')
-os.remove(trash)
-    gg.setVisible(false)
-    while true do
-      gg.setVisible(false)      
-      gg.setVisible(true)
-    end
-    return
-  end
-
-if gg.isPackageInstalled("com.guoshi.httpcanary.premium") then
-    i = 1
-    gg.alert("😡😡WARNING😡😡\n\n APPLICATIONS THAT HARMFUL SCRIPTS ARE DETECTED\n\n FOR SECURITY THE SCRIPT WAS AUTOMATICALLY DELETED")
-   trash = gg.getFile():match('[^/]+$')
-os.remove(trash)
-    gg.setVisible(false)
-    while true do
-      gg.setVisible(false)      
-      gg.setVisible(true)
-    end
-    return
-  end
-  
-if gg.isPackageInstalled("com.emanuelef.remote_capture") then
-    i = 1
-    gg.alert("😡😡WARNING😡😡\n\n APPLICATIONS THAT HARMFUL SCRIPTS ARE DETECTED\n\n FOR SECURITY THE SCRIPT WAS AUTOMATICALLY DELETED")
-   trash = gg.getFile():match('[^/]+$')
-os.remove(trash)
-    gg.setVisible(false)
-    while true do
-      gg.setVisible(false)      
-      gg.setVisible(true)
-    end
-    return
-  end
 
 
 
@@ -1049,3 +985,4 @@ while true do
        
     end 
 end 
+
