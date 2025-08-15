@@ -158,7 +158,7 @@ clear() wait()
         o=-0x2C t=4 offsett()
 local t = gg.getResults(10000000)
 for i, v in ipairs(t) do
-v.name ="Type"
+v.name ="Typee"
 end
 gg.addListItems(t)
 gg.setValues(t)
@@ -214,7 +214,7 @@ function a3()
 
         local results = gg.getResults(10000000)
         for i, v in ipairs(results) do
-            v.name = "Type"
+            v.name = "Typeee"
         end
         gg.addListItems(results)
         gg.setValues(results)
@@ -310,7 +310,7 @@ function a4()
                 flags = gg.TYPE_DWORD,
                 value = xinput[4],
                 freeze = false,
-                name = "Type_" .. string.format("%X", off)
+                name = "Typeeee_" .. string.format("%X", off)
             })
         end
     end
@@ -384,7 +384,7 @@ for _, off in ipairs(offsets) do
             flags = gg.TYPE_DWORD,
             value = xinput[6],
             freeze = true,
-            name = "Type_" .. string.format("%X", off)
+            name = "Typeeeee_" .. string.format("%X", off)
         }
         table.insert(flatResults, nv)
         table.insert(original_values_a5, {
@@ -420,7 +420,7 @@ clear() wait()
         o=-0x30 t=4 offsett()
 local t = gg.getResults(10000000)
 for i, v in ipairs(t) do
-v.name ="Type"
+v.name ="Typeeeeee"
 end
 gg.addListItems(t)
 gg.setValues(t)
@@ -985,5 +985,6 @@ while true do
        
     end 
 end 
+
 
 
