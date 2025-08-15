@@ -292,7 +292,7 @@ function a4()
 
     local baseResults = gg.getResults(10000000)
     original_values_a4 = {}
-    local offsets = {0x3C, 0x40}
+    local offsets = {0x3C}--0x40
     local flatResults = {}
 
         for _, off in ipairs(offsets) do
@@ -309,7 +309,7 @@ function a4()
                 address = targetAddr,
                 flags = gg.TYPE_DWORD,
                 value = xinput[4],
-                freeze = true,
+                freeze = false,
                 name = "Type_" .. string.format("%X", off)
             })
         end
@@ -985,4 +985,5 @@ while true do
        
     end 
 end 
+
 
